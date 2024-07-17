@@ -4,3 +4,11 @@ export class UserDto {
   phone: number;
   password: string;
 }
+
+export class StudentDto {
+  id: string;
+  fullname: string;
+  phone: number;
+  photo: string;
+  password: string;
+}

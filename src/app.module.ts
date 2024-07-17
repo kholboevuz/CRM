@@ -6,7 +6,6 @@ import { UsersModule } from './users/users.module';
 import { AuthMiddleware } from './middlewares/auth.middleware';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
-import { AuthController } from './users/auth/auth.controller';
 
 @Module({
   imports: [
